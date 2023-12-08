@@ -1,7 +1,6 @@
 import React from 'react'
 import "./Aboutme.css"
 import Image from 'next/image'
-import WorkWithme from '@/components/WorkWithme'
 
 function Aboutme() {
   return (
