@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body {
+  background-color: #F4F8FB;
+  overflow-x: hidden;
+  margin: 0;
+  font-family: Lato;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    background-color: #F4F8FB;
+    overflow-x: hidden;
+    margin: 0;
+  }
+}
+
+

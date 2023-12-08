@@ -1,0 +1,107 @@
+.navbar {
+   background-color: #ff6900;
+   width: 81%;
+   margin: auto;
+   height: 80px;
+   border-radius: 10px;
+   display: flex;
+   align-items: center;
+   justify-content:space-between;
+   opacity: 0; /* Start with opacity set to 0 */
+  animation: fadeInUp 4s forwards;
+  position: fixed;
+  top: 0px;
+  left: 9.5%;
+  z-index: 999;
+}
+@keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(-20px); /* Start slightly below the final position */
+    }
+    to {
+      opacity: 1;
+      transform: translateY(5px);
+    }
+  }
+.menu-items{
+    display: flex;
+    flex: 10;
+    list-style: none;
+}
+.list-items {
+    margin-left: 15px;
+    font-size: 16px;
+    color: #FFFFFF;
+    transition: background-color 2s;
+    padding: 10px;
+    border-radius: 20px;
+    text-decoration:none;
+}
+.list-items-first {
+    margin-left: 15px;
+    font-size: 16px;
+    color: #FFFFFF;
+    transition: background-color 2s;
+    padding: 10px;
+    border-radius: 20px;
+    text-decoration:none;
+    background-color: #000000;
+}
+.list-items:hover {
+    background-color: #000000; /* Change this to the desired background color on hover */
+    /* border-radius: 10px; */
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+   
+}
+.navbar-wrapper {
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    width: 100%;
+}
+.hamburger {
+    border: 0;
+    height: 40px;
+    width: 40px;
+    padding: 0.5rem;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 30px;
+    transition: background-color 0.2s ease-in-out;
+    position: absolute;
+    top: 50%;
+    right: 25px;
+    transform: translateY(-50%);
+    display: none;
+  }
+
+  @media screen and (max-width: 768px) {
+    .hamburger {
+        display: block;
+        background-color: white;
+      }
+      .navbar-expanded {
+        background-color: #ff6900;
+        width: 100%;
+        margin: auto;
+        height: 350px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+     }
+     .navbar-wrapper {
+        width: 100%;
+        z-index: 7;
+    }
+    .menu-items-expanded{
+        list-style: none;
+        display: block;
+    }
+    .menu-items {
+        display: none;
+    }
+  
+  }

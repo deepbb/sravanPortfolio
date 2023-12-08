@@ -1,0 +1,137 @@
+.intro-wrap {
+    width: 81%;
+    width: "80%";
+    margin: auto;
+    display: flex;
+    padding-bottom: 50px;
+    padding-top: 70px;
+}
+.mainDiv{
+    /* background-color: blue; */
+    margin-right: 150px;
+  }
+  
+  .animated-text {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: slideText 5s ease-in-out infinite;
+    /* background-color: red; */
+  }
+  .text-wraper{
+      display: flex;
+      align-items: center;
+      justify-content:flex-end;
+      /* background: #343F4F; */
+  }
+  .contents-wraper{
+    display: flex;
+    align-items:flex-end;
+    justify-content:flex-end;
+    flex-direction: column;
+    /* background: #343F4F; */
+}
+  .first-name{
+    color: #000;
+    font-size: 40px;
+    font-weight: 800;
+  }
+  .name{
+    color: #ff6900;
+    font-size: 40px;
+    font-weight: 800;
+  }
+  .wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .wrapper .static-txt{
+    color: #000;
+    font-size: 40px;
+    font-weight: 800;
+  }
+  .wrapper .dynamic-txts{
+    margin-left: 5px;
+    height: 90px;
+    line-height: 90px;
+    overflow: hidden;
+    padding-left: 5px;
+    margin: 0;
+  }
+  .dynamic-txts li{
+    list-style: none;
+    color: #ff6900;
+    font-size: 40px;
+    font-weight: 800;
+    position: relative;
+    top: 0;
+    animation: slide 12s steps(4) infinite;
+  }
+  @keyframes slide {
+    100%{
+      top: -360px;
+    }
+  }
+  .dynamic-txts li span{
+    /* position: relative; */
+    margin: 5px 0;
+    line-height: 90px;
+  }
+  .dynamic-txts li span::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #F4F8FB;
+    /* border-left: 2px solid #FC6D6D; */
+    animation: typing 3s steps(10) infinite; 
+  }
+  @keyframes typing {
+    40%, 60%{
+      left: calc(100% + 30px);
+    }
+    100%{
+      left: 0;
+    }
+  }
+
+  .contact-buttons {
+    display: flex;
+    margin-top: 30px;
+    justify-content:flex-end;
+  }
+  .know-btn {
+    margin-right: 50px;
+    background-color: #000;
+    height: 35px;
+    width: 130px;
+    color: white;
+    border-style: none;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 2px;
+  }
+  .work-btn {
+    background-color: #ff6900;
+    height: 35px;
+    width: 130px;
+    color: white;
+    border-style: none;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 2px;
+  }
+  
+  @keyframes slideText {
+    0% {
+      transform: translateX(100%);
+      opacity: 1;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  

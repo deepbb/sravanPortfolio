@@ -1,0 +1,146 @@
+.aboutme-wraper {
+    margin-top: 120px;
+}
+
+.about-container {
+    display: flex;
+}
+.Text-container {
+    flex: 6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.image-container {
+    flex: 6;
+    position: relative;
+}
+.name {
+    color: #32333c;
+    font-size: 50px;
+    font-weight: 700;
+}
+.sub-title {
+    color: #666;
+    font-size: 25px;
+    font-weight: 400;
+}
+.aboutme-title{
+    position: absolute;
+    left: 350px;
+}
+.about-details{ 
+font-size: 20px;
+font-family: 'Poppins';
+font-weight: 400;
+line-height: 34px;
+color: #8a8fa3;
+margin-bottom: 30px;
+transition: all 0.3s;
+}
+.knowmore-title{
+    position: absolute;
+    left: 350px;
+}
+.knowme-title{
+    position: absolute;
+    top: 50px;
+}
+.know-details{
+font-size: 20px;
+font-family: 'Poppins';
+font-weight: 400;
+line-height: 34px;
+color: #8a8fa3;
+margin-bottom: 30px;
+transition: all 0.3s;
+margin-left: -300px;
+}
+.name-awt{
+    color: #32333c;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.sub-title-awt {
+    color: #666;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+}
+.enterprenur-wrapper{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 20px;
+}
+.enterprenur-philosophy-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.enterprenur-philosophy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.texts-wrapper{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    height: 400px;
+    padding: 10px; /* Add padding to create space inside the box */
+    border-radius: 10px; /* Add rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+.philosophy-heading {
+    font-size: 20px;
+    font-weight:900;
+    padding: 0;
+    color: black;
+}
+.phylosophy-list {
+    font-size: 18px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    line-height: 34px;
+    color: #8a8fa3;
+}
+.name-awt-tech {
+    color: #32333c;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+}
+.sub-title-awt-tech {
+    color: #666;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+.texts-wrapper-tech {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    height: 400px;
+    padding: 10px; /* Add padding to create space inside the box */
+    border-radius: 10px; /* Add rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+.enterprenur-philosophy-tech{
+    margin-left: 70px;
+}
+
+.inspiration-section {
+    display:flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+/* #a41732 */

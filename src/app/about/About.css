@@ -1,0 +1,133 @@
+.wrapper {
+    display: flex;
+    margin-top: 100px;
+}
+.image-container {
+    flex: 6;
+    padding: 15px;
+}
+.introduction {
+    flex: 6;
+}
+.paragraph {
+    font-size: 14;
+    font-weight: 300;
+    line-height: 22px;
+    color: #4f4f4f;
+}
+.image-slider {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 630px;
+    overflow-x: scroll;
+    padding:10px;
+}
+.image-slider::-webkit-scrollbar {
+    display: none; /* Hide the scrollbar for WebKit browsers (Chrome, Safari, etc.) */
+  }
+  
+  /* Optional: Hide the scrollbar for Firefox */
+  .image-slider {
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+  }
+  
+  .image-slider:hover::-webkit-scrollbar-thumb {
+    background-color: #ddd; /* Change the color on hover */
+  }
+.img{
+    padding: 10px;
+    transition: transform 0.9s ease-in-out; 
+}
+
+.img:hover {
+    transform: scale(1.1); /* Increase the scale on hover (zoom in) */
+  }
+.task-list {
+    display: flex;
+    align-items: center;
+}
+.checked-outline {
+    height: 30px;
+    width: 30px;
+    background-color: red;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.checked-text{
+    margin-left: 10px;
+}
+.tasklist-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 500px;
+}
+.enterprenur-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.enterprenur-wrapper{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 20px;
+}
+.enterprenur-images {
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+.enterprenur-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.texts-title {
+    background-color: #ff6900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 50px;
+    position: absolute;
+    top:220px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+.enterprenur-philosophy-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.enterprenur-philosophy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.texts-wrapper{
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    height: 250px;
+    padding: 10px; /* Add padding to create space inside the box */
+  border-radius: 10px; /* Add rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+.philosophy-heading {
+    font-size: 20px;
+    font-weight:900;
+    padding: 0;
+    color: black;
+}
+.phylosophy-list {
+    font-size: 16px;
+    line-height: 25px;
+    list-style:disc;
+}

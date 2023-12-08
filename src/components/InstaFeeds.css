@@ -1,0 +1,11 @@
+.instafeeds {
+    display:'flex';
+    flex-direction: column;
+    align-items: center;
+    width:"250px";
+    padding-top:"20px";
+    /* border: '1px solid grey', */
+    margin:"5px";
+    border-radius: "10px";
+    border: 1px solid gray;
+}
