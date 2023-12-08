@@ -27,7 +27,7 @@ export default async function WorkwithMe() {
         </div>
         <div className='work-image'>
             <div>
-             <Image src="/colaboration.png" width={600} height={550} style={{borderRadius:10}} />
+             <Image src="/colaboration.png" width={600} height={550} style={{borderRadius:10}} alt='' />
 
             </div>
         </div>
@@ -35,42 +35,42 @@ export default async function WorkwithMe() {
       </div>
       <div className='work-services'>
         <div className='service-card'>
-        <Image src="/icon-6.png" width={100} height={100} />
+        <Image src="/icon-6.png" width={100} height={100} alt='' />
         <h2 style={{margin:0,}}>Learning to Lead​</h2>
         <p style={{padding:0,textAlign:'center'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper.</p>
         </div>
         <div className='service-card'>
-        <Image src="/icon-7-1.png" width={100} height={100} />
+        <Image src="/icon-7-1.png" width={100} height={100} alt='' />
         <h2 style={{margin:0}}>Learning to Lead​</h2>
         <p style={{padding:0,textAlign:'center'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper.</p>
         </div>
         <div className='service-card'>
-        <Image src="/icon-8.png" width={100} height={100} />
+        <Image src="/icon-8.png" width={100} height={100} alt='' />
         <h2 style={{margin:0}}>Learning to Lead​</h2>
         <p style={{padding:0,textAlign:'center'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper.</p>
         </div>
         <div className='service-card'>
-        <Image src="/icon-1.png" width={100} height={100} />
+        <Image src="/icon-1.png" width={100} height={100} alt='' />
         <h2 style={{margin:0}}>Learning to Lead​</h2>
         <p style={{padding:0,textAlign:'center'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper.</p>
         </div>
         <div className='service-card'>
-        <Image src="/icon-2.png" width={100} height={100} />
+        <Image src="/icon-2.png" width={100} height={100} alt='' />
         <h2 style={{margin:0}}>Learning to Lead​</h2>
         <p style={{padding:0,textAlign:'center'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper.</p>
         </div>
         <div className='service-card'>
-        <Image src="/icon-3.png" width={100} height={100} />
+        <Image src="/icon-3.png" width={100} height={100} alt='' />
         <h2 style={{margin:0}}>Learning to Lead​</h2>
         <p style={{padding:0,textAlign:'center'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper.</p>
         </div>
         <div className='service-card'>
-        <Image src="/icon-4.png" width={100} height={100} />
+        <Image src="/icon-4.png" width={100} height={100} alt='' />
         <h2 style={{margin:0}}>Learning to Lead​</h2>
         <p style={{padding:0,textAlign:'center'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper.</p>
         </div>
         <div className='service-card'>
-        <Image src="/icon-5.png" width={100} height={100} />
+        <Image src="/icon-5.png" width={100} height={100} alt='' />
         <h2 style={{margin:0}}>Learning to Lead​</h2>
         <p style={{padding:0,textAlign:'center'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper.</p>
         </div>
@@ -79,7 +79,7 @@ export default async function WorkwithMe() {
         <div className='work-engage'>
           <div className='work-engage-container'>
           <h1>The work I engage in is...</h1>
-        <Image src="/work-profile.jpg" width={600} height={300} />
+        <Image src="/work-profile.jpg" width={600} height={300} alt='' />
         </div>
         <div className='work-engage-cards'>
           <div className='work-cards'>

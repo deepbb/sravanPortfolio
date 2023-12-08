@@ -22,8 +22,8 @@ const {items} = await getYouubeData()
   console.log("YOUTUBE2", items[1]?.snippet?.thumbnails?.high);
   return (
     <div style={{flexWrap:"wrap",justifyContent:'center',padding:15}}>
-      {items?.map((item)=> (
-         <div style={{display:'flex',flexDirection:'column',alignItems:'center',width:250,height:270,paddingTop:20, paddingBottom:10,border: '1px solid grey',margin:10,borderRadius:10,height:'fit-content',boxShadow:' 10px 3px 5px -2px rgba(53,58,117,1)' }}>
+      {items?.map((item,index)=> (
+         <div style={{display:'flex',flexDirection:'column',alignItems:'center',width:250,height:270,paddingTop:20, paddingBottom:10,border: '1px solid grey',margin:10,borderRadius:10,height:'fit-content',boxShadow:' 10px 3px 5px -2px rgba(53,58,117,1)' }} key={index}>
               <div style={{marginLeft:190}}>
             <Image
            src="/youtube.png"

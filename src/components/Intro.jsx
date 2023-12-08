@@ -21,7 +21,7 @@ function Intro() {
           </div>
           <div className='text-wraper'>
             <div className="wrapper">
-              <div className="static-txt">I'm a</div>
+              <div className="static-txt">I&apos;m a</div>
                <ul className="dynamic-txts">
                <li><span>YouTuber</span></li>
                <li><span>Designer</span></li>

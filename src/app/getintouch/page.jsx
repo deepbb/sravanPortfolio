@@ -7,7 +7,7 @@ export default function GetinTouch() {
   return (
     <div className='getinTouch'>
              <h2 className='getincontact'>CONTACT US</h2>
-              <h1 className='heading'>Let's keep in Touch <span style={{ color:'#ed002e'}}>Entrepreneurs</span></h1>
+              <h1 className='heading'>Let&apos;s keep in Touch <span style={{ color:'#ed002e'}}>Entrepreneurs</span></h1>
               <h4 className='getintouchtext'>Tortor at auctor urna nunc id cursus metus aliquam eleifend at elementum eu.</h4>
         <div className='getintouch-container'>
             <div className='contact-form'>

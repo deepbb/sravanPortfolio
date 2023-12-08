@@ -13,13 +13,13 @@ export default async function About () {
       <div className='wrapper'>
         <div className='image-container'>
           <div>
-          <Image src="/profession01.jpg" width={650} height={400} style={{borderRadius:10}} />
+          <Image src="/profession01.jpg" width={650} height={400} style={{borderRadius:10}} alt='' />
           </div>
           <div className='image-slider'>
-          <Image className='img' src="/profession02.jpg" width={200} height={150} style={{borderRadius:10}} />
-          <Image className='img' src="/profession03.jpg" width={200} height={150} style={{borderRadius:10}} />
-          <Image className='img' src="/profession04.jpg" width={200} height={150} style={{borderRadius:10}} />
-          <Image className='img' src="/profession04.jpg" width={200} height={150} style={{borderRadius:10}} />
+          <Image className='img' src="/profession02.jpg" width={200} height={150} style={{borderRadius:10}} alt='' />
+          <Image className='img' src="/profession03.jpg" width={200} height={150} style={{borderRadius:10}} alt=''/>
+          <Image className='img' src="/profession04.jpg" width={200} height={150} style={{borderRadius:10}} alt=''/>
+          <Image className='img' src="/profession04.jpg" width={200} height={150} style={{borderRadius:10}} alt=''/>
           </div>
         </div>
         <div className='introduction'>
@@ -76,19 +76,19 @@ export default async function About () {
         <div className='enterprenur-wrapper'>
         <div className='enterprenur-images'>
           <div className='enterprenur-container'>
-             <Image className='img' src="/training01.jpg" width={350} height={250} style={{borderRadius:20}} />
+             <Image className='img' src="/training01.jpg" width={350} height={250} style={{borderRadius:20}} alt='' />
               <div className='texts-title'>
                 <h2 style={{color:'white',padding:0}}>World Class Training</h2>
               </div>
           </div>
           <div className='enterprenur-container'>
-             <Image className='img' src="/training02.jpg" width={350} height={250} style={{borderRadius:20}} />
+             <Image className='img' src="/training02.jpg" width={350} height={250} style={{borderRadius:20}} alt='' />
               <div className='texts-title'>
                 <h2 style={{color:'white',padding:0}}>Proven Methodology</h2>
               </div>
           </div>
           <div className='enterprenur-container'>
-             <Image className='img' src="/training03.jpg" width={350} height={250} style={{borderRadius:20}} />
+             <Image className='img' src="/training03.jpg" width={350} height={250} style={{borderRadius:20}} alt='' />
               <div className='texts-title'>
                 <h2 style={{color:'white',padding:0}}>Great Comunity</h2>
               </div>
@@ -104,7 +104,7 @@ export default async function About () {
              <div className='texts-wrapper'>
               <p className='philosophy-heading'>Innovation</p>
               <li className='phylosophy-list'>I must be innovative to remain ahead of the competition and continuously improve our  offerings.</li>
-              <li className='phylosophy-list'>We aren’t afraid to attempt new things, even if they don’t always work out.</li>
+              <li className='phylosophy-list'>We aren&apos;t afraid to attempt new things, even if they don&apos;t always work out.</li>
              </div>
           </div>
           <div className='enterprenur-philosophy'>
